@@ -8,13 +8,13 @@
 </head>
 <body>
     <div class="container flex-center flex-column text-center">
-        <h1>Thanks for playing!</h1>
+        <h1>Thanks for playing! <br> Here is your final score</h1>
         <h2 id="finalScore"></h2>
         <form action=".">
             <input type="text" id="username" name="username" placeholder="username">
-            <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)">Submit</button>
+            <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Submit</button>
         </form>
-        <h2>Keep playing to keep learning</h2>
+        <h3>Keep playing to keep learning</h3>
         <a class="btn" href="./game.html">Restart</a>
         <a class="btn" href="../index.html>Home">Home</a>
     </div>
